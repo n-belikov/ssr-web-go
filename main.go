@@ -32,7 +32,7 @@ func main() {
 
 	config := routes.Config{
 		Index: string(index),
-		Pages: make(map[string]string),
+		Pages: make(map[string]routes.Page),
 	}
 
 	if err := json.Unmarshal(data, &config.Pages); err != nil {

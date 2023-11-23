@@ -1,3 +1,6 @@
 {
-  "/promo/web/about_us": "<title>Test</title>"
+  "/promo/web/about_us": {
+    "head": "<title>Test</title>",
+    "status_code": 200
+  }
 }
